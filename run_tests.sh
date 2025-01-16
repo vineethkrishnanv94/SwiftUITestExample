@@ -7,6 +7,11 @@ DESTINATION="platform=iOS Simulator,name=iPhone 14,OS=latest"
 RESULTS_DIR="test_results"
 RESULTS_FILE="test_results.json"
 
+# Clean up the results directory if it exists
+if [ -d "$RESULTS_DIR" ]; then
+  rm -rf "$RESULTS_DIR"
+fi
+
 # Create a directory for results if it doesn't exist
 mkdir -p "$RESULTS_DIR"
 
