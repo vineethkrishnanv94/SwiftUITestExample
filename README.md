@@ -13,23 +13,16 @@ This repository includes an iOS app with both unit tests and UI tests written us
    git clone https://github.com/your-username/UITestExample.git
    cd UITestExample
    
-**Running the Tests**
+## Running the Tests
 
-To run the unit and UI tests, execute the provided run_tests.sh script. This script will:
+To run the unit and UI tests, execute the provided `run_tests.sh` script. This script will:
 
-Run tests on the specified simulator (iPhone 14 with the latest iOS version).
-Save the results in .xcresult format.
-Convert the results into JSON format for easy analysis.
+- Run tests on the specified simulator (`iPhone 14` with the latest iOS version).
+- Save the results in `.xcresult` format.
+- Convert the results into JSON format for easy analysis.
 
-   ```bash
-   ./run_tests.sh
-
-
-**Expected Output**
-The tests will run, and you’ll see the following output in the terminal:
-
-Success message if the tests pass.
-Failure message if any test fails.
-The JSON test results will be saved in the test_results/test_results.json file.
+### Command:
+```bash
+./run_tests.sh
 
 
