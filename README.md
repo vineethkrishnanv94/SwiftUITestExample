@@ -21,8 +21,8 @@ Run tests on the specified simulator (iPhone 14 with the latest iOS version).
 Save the results in .xcresult format.
 Convert the results into JSON format for easy analysis.
 
-```bash
-./run_tests.sh
+   ```bash
+   ./run_tests.sh
 
 Expected Output:
 The tests will run, and you’ll see the following output in the terminal:
