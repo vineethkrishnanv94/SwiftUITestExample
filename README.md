@@ -24,7 +24,8 @@ Convert the results into JSON format for easy analysis.
    ```bash
    ./run_tests.sh
 
-Expected Output:
+
+**Expected Output**
 The tests will run, and you’ll see the following output in the terminal:
 
 Success message if the tests pass.
